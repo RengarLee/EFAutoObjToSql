@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace EFSqlLogging.Model
+namespace EFAutoObjToSql.Model
 {
-    [Table("Customers1")]
+    [Table("Customers")]
     public class Customer
     {
         [Column("CustomerID")]

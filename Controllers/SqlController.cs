@@ -1,7 +1,7 @@
-﻿using EFSqlLogging.Log;
+﻿using EFAutoObjToSql.Log;
 using Microsoft.AspNetCore.Mvc;
 
-namespace EFSqlLogging.Controllers
+namespace EFAutoObjToSql.Controllers
 {
     [ApiController]
     [Route("Sql")]
