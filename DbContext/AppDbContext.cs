@@ -1,7 +1,7 @@
-﻿using EFSqlLogging.Model;
+﻿using EFAutoObjToSql.Model;
 using Microsoft.EntityFrameworkCore;
 
-namespace EFSqlLogging.DbContext
+namespace EFAutoObjToSql.DbContext
 {
     public class AppDbContext : Microsoft.EntityFrameworkCore.DbContext
     {

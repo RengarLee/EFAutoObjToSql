@@ -1,5 +1,5 @@
-using EFSqlLogging.DbContext;
-using EFSqlLogging.Log;
+using EFAutoObjToSql.DbContext;
+using EFAutoObjToSql.Log;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -8,7 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace EFSqlLogging
+namespace EFAutoObjToSql
 {
     public class Startup
     {
